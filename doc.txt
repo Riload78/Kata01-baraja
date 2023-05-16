@@ -1,0 +1,11 @@
+Es un reto sencillo. Se trata de crear una baraja española. Teniendo en cuenta que existen 4  palos, a saber, Oros (o), Copas (c), Espadas (e) y Bastos (b)
+y 10 números por cada palo: As, 2, 3,  4, 5, 6, 7, Sota, Caballo y Rey ['A', '1', '2', '3', '4', '5', '6', '7', 'S', 'C', 'R']. 
+Para describir un naipe utilizaremos la mezcla de ambos, así, el As de copas sera 'Ac' y '7e' el  siete de espadas. 
+1. - Se trata de construir de forma programática una baraja completa (a ser posible utilizando  iteracion). 
+2.- En segundo lugar se trata de barajar los naipes. El método elegido será recorrer la baraja  desde el primer al último naipe e intercambiar la posición de este con otra posición. No podrás  usar las funciones que python provee para el mezclado de listas (shuffle), deberás hacerlo a  mano. De igual manera con el intercambio de naipes por posición. 
+Segunda vuelta 
+Con lo aprendido crea una clase baraja con la que crear multiples instancias y los métodos 
+• Barajar: ya visto. Permite también que se mezcle una baraja incompleta (en la que ya se hayan  repartido cartas) 
+• Repartir(mano, jugadores): Según el estado de la baraja deberán generarse tantas listas como  jugadores. Cada una de estas listas tendrá un número de cartas igual al parámetro mano. 
+Forma de entrega 
+Crear un módulo que contenga las funciones crearBaraja, mezclar y la clase Baraja. Si  quieres entregar una muestra de como funciona hazlo sobre otro ficher
