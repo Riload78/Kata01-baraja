@@ -1,7 +1,7 @@
-import baraja
+from baraja import Baraja
 
-print(baraja.crear_baraja(["A", "2", "3"], ("rojos", "verdes")))
 
-b = baraja.crear_baraja("A234567SCR", "oceb")
-print(b)
-baraja.barajar_for(b)
+
+baraja = Baraja("A234567SCR", "oceb")
+print(baraja.naipes)
+print(baraja.repartir(4,5))
